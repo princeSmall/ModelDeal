@@ -13,6 +13,8 @@
 		1CC6C8F222268FF50047C206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C8F122268FF50047C206 /* Assets.xcassets */; };
 		1CC6C8F522268FF50047C206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C8F322268FF50047C206 /* LaunchScreen.storyboard */; };
 		1CC6C8F822268FF50047C206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6C8F722268FF50047C206 /* main.m */; };
+		1CC6C902222690040047C206 /* ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6C8FF222690040047C206 /* ModelA.m */; };
+		1CC6C903222690040047C206 /* ModelB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6C900222690040047C206 /* ModelB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1CC6C8F422268FF50047C206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CC6C8F622268FF50047C206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC6C8F722268FF50047C206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CC6C8FE222690040047C206 /* ModelB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelB.h; sourceTree = "<group>"; };
+		1CC6C8FF222690040047C206 /* ModelA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelA.m; sourceTree = "<group>"; };
+		1CC6C900222690040047C206 /* ModelB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelB.m; sourceTree = "<group>"; };
+		1CC6C901222690040047C206 /* ModelA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				1CC6C8E922268FF40047C206 /* AppDelegate.m */,
 				1CC6C8EB22268FF40047C206 /* ViewController.h */,
 				1CC6C8EC22268FF40047C206 /* ViewController.m */,
+				1CC6C901222690040047C206 /* ModelA.h */,
+				1CC6C8FF222690040047C206 /* ModelA.m */,
+				1CC6C8FE222690040047C206 /* ModelB.h */,
+				1CC6C900222690040047C206 /* ModelB.m */,
 				1CC6C8EE22268FF40047C206 /* Main.storyboard */,
 				1CC6C8F122268FF50047C206 /* Assets.xcassets */,
 				1CC6C8F322268FF50047C206 /* LaunchScreen.storyboard */,
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC6C8ED22268FF40047C206 /* ViewController.m in Sources */,
+				1CC6C902222690040047C206 /* ModelA.m in Sources */,
+				1CC6C903222690040047C206 /* ModelB.m in Sources */,
 				1CC6C8F822268FF50047C206 /* main.m in Sources */,
 				1CC6C8EA22268FF40047C206 /* AppDelegate.m in Sources */,
 			);
